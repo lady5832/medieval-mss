@@ -7,11 +7,7 @@
          <titleStmt>
             <title>MS. Laud Misc. 190</title>
             <title type="collection">MSS. Laud Misc. (Laud miscellaneous)</title>
-            <respStmt>
-               <resp>Summary description</resp>
-               <persName>Elizabeth Solopova</persName>
-               <persName>Matthew Holford</persName>
-            </respStmt>
+            <respStmt xml:id="DM">            	<resp>Cataloguer</resp>            	<persName>Daniela Mairhofer</persName>         	</respStmt>         	<respStmt xml:id="AR">            	<resp>Abbreviation and encoding</resp>            	<persName>Alison Ray</persName>         	</respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>
@@ -36,8 +32,7 @@
                   <altIdentifier type="internal">
                      <idno type="SCN">1184</idno>
                   </altIdentifier>
-               </msIdentifier>
-               <physDesc>
+               </msIdentifier> <physDesc><p><secFol><!--todo--></secFol></p>
                   <p n="composite">Composite:</p>
                </physDesc>
                <additional>
@@ -74,18 +69,17 @@
                         <title key="work_14864" type="desc">Tabula to sermons</title>
                         <textLang mainLang="la">Latin</textLang>
                      </msItem>
-                  </msContents>
-                  <physDesc>
+                  </msContents> <physDesc><p><secFol><!--todo--></secFol></p>
                      <objectDesc form="codex">
                         <supportDesc material="perg">
-                           <support>parchment</support>
-                        </supportDesc>
-                     </objectDesc>
+                           <support>parchment</support><extent> leaves                        	<dimensions unit="mm" type="leaf">                        	<height min="" max=""></height>                        	<width min="" max=""></width>                     	</dimensions>                     	</extent>                     	<foliation><!--todo--></foliation>
+                        </supportDesc><layoutDesc>                     	<layout columns="" writtenLines="">Ruling  … .                        	Ruled space                        	<dimensions unit="mm" type="ruled">                        	<height min="" max=""></height>                        	<width min="" max=""></width>                     	</dimensions>                     	</layout>                  	</layoutDesc> 
+                     </objectDesc><handDesc>                  	<!--todo--><handNote></handNote>               	</handDesc> 
                   </physDesc>
                   <history>
                      <origin>
                         <origDate calendar="Gregorian" notAfter="1500" notBefore="1300">14th and 15th centuries</origDate>
-                     </origin>
+                     </origin><provenance><orgName role="fmo" key="org_132406363">Mainz, Carthusian abbey of St Michael</orgName></provenance>                   <provenance when="1638"><persName role="fmo" key="person_54940373">William Laud, 1573–1645</persName>, 1638.</provenance>                   <acquisition when="1639">Given to the Bodleian as part of his third donation, dispatched on 28 June 1639.</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Laud_Misc_190-part2">
@@ -108,18 +102,17 @@
                         <title key="work_15266" type="desc">Theological extracts.</title>
                         <textLang mainLang="la">Latin</textLang>
                      </msItem>
-                  </msContents>
-                  <physDesc>
+                  </msContents> <physDesc><p><secFol><!--todo--></secFol></p>
                      <objectDesc form="codex">
                         <supportDesc material="perg">
-                           <support>parchment</support>
-                        </supportDesc>
-                     </objectDesc>
+                           <support>parchment</support><extent> leaves                        	<dimensions unit="mm" type="leaf">                        	<height min="" max=""></height>                        	<width min="" max=""></width>                     	</dimensions>                     	</extent>                     	<foliation><!--todo--></foliation>
+                        </supportDesc><layoutDesc>                     	<layout columns="" writtenLines="">Ruling  … .                        	Ruled space                        	<dimensions unit="mm" type="ruled">                        	<height min="" max=""></height>                        	<width min="" max=""></width>                     	</dimensions>                     	</layout>                  	</layoutDesc> 
+                     </objectDesc><handDesc>                  	<!--todo--><handNote></handNote>               	</handDesc> 
                   </physDesc>
                   <history>
                      <origin>
                         <origDate calendar="Gregorian" notAfter="1500" notBefore="1300">14th and 15th centuries</origDate>
-                     </origin>
+                     </origin><provenance><orgName role="fmo" key="org_132406363">Mainz, Carthusian abbey of St Michael</orgName></provenance>                   <provenance when="1638"><persName role="fmo" key="person_54940373">William Laud, 1573–1645</persName>, 1638.</provenance>                   <acquisition when="1639">Given to the Bodleian as part of his third donation, dispatched on 28 June 1639.</acquisition>
                   </history>
                </msPart>
                <msPart xml:id="MS_Laud_Misc_190-part3">
@@ -133,18 +126,17 @@
                         <title key="work_14583" type="desc">Sermons.</title>
                         <textLang mainLang="la">Latin</textLang>
                      </msItem>
-                  </msContents>
-                  <physDesc>
+                  </msContents> <physDesc><p><secFol><!--todo--></secFol></p>
                      <objectDesc form="codex">
                         <supportDesc material="perg">
-                           <support>parchment</support>
-                        </supportDesc>
-                     </objectDesc>
+                           <support>parchment</support><extent> leaves                        	<dimensions unit="mm" type="leaf">                        	<height min="" max=""></height>                        	<width min="" max=""></width>                     	</dimensions>                     	</extent>                     	<foliation><!--todo--></foliation>
+                        </supportDesc><layoutDesc>                     	<layout columns="" writtenLines="">Ruling  … .                        	Ruled space                        	<dimensions unit="mm" type="ruled">                        	<height min="" max=""></height>                        	<width min="" max=""></width>                     	</dimensions>                     	</layout>                  	</layoutDesc> 
+                     </objectDesc><handDesc>                  	<!--todo--><handNote></handNote>               	</handDesc> 
                   </physDesc>
                   <history>
                      <origin>
                         <origDate calendar="Gregorian" notAfter="1500" notBefore="1300">14th and 15th centuries</origDate>
-                     </origin>
+                     </origin><provenance><orgName role="fmo" key="org_132406363">Mainz, Carthusian abbey of St Michael</orgName></provenance>                   <provenance when="1638"><persName role="fmo" key="person_54940373">William Laud, 1573–1645</persName>, 1638.</provenance>                   <acquisition when="1639">Given to the Bodleian as part of his third donation, dispatched on 28 June 1639.</acquisition>
                   </history>
                </msPart>
             </msDesc>

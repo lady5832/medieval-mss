@@ -7,11 +7,7 @@
          <titleStmt>
             <title>MS. Laud Misc. 203</title>
             <title type="collection">MSS. Laud Misc. (Laud miscellaneous)</title>
-            <respStmt>
-               <resp>Summary description</resp>
-               <persName>Elizabeth Solopova</persName>
-               <persName>Matthew Holford</persName>
-            </respStmt>
+            <respStmt xml:id="DM">            	<resp>Cataloguer</resp>            	<persName>Daniela Mairhofer</persName>         	</respStmt>         	<respStmt xml:id="AR">            	<resp>Abbreviation and encoding</resp>            	<persName>Alison Ray</persName>         	</respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>
