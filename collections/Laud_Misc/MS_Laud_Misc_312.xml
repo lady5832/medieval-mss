@@ -7,7 +7,14 @@
          <titleStmt>
             <title>MS. Laud Misc. 312</title>
             <title type="collection">MSS. Laud Misc. (Laud miscellaneous)</title>
-            <respStmt xml:id="DM">            	<resp>Cataloguer</resp>            	<persName>Daniela Mairhofer</persName>         	</respStmt>         	<respStmt xml:id="AR">            	<resp>Abbreviation and encoding</resp>            	<persName>Alison Ray</persName>         	</respStmt>
+            <respStmt xml:id="DM">
+               <resp>Cataloguer</resp>
+               <persName>Daniela Mairhofer</persName>
+            </respStmt>
+            <respStmt xml:id="AR">
+               <resp>Abbreviation and encoding</resp>
+               <persName>Alison Ray</persName>
+            </respStmt>
          </titleStmt>
          <publicationStmt>
             <publisher>
@@ -48,21 +55,61 @@
                   <objectDesc form="codex">
                      <supportDesc material="perg">
                         <support>parchment</support>
+                        <extent> leaves <dimensions unit="mm" type="leaf">
+                              <height min="" max=""><!-- todo --></height>
+                              <width min="" max=""><!-- todo --></width>
+                           </dimensions>
+                        </extent>
+                        <foliation><!--todo--></foliation>
+                        <collation><!-- todo --></collation>
                      </supportDesc>
+                     <layoutDesc>
+                        <layout columns="" writtenLines="">Ruling … . Ruled space <dimensions
+                              unit="mm" type="ruled">
+                              <height min="" max=""><!-- todo --></height>
+                              <width min="" max=""><!-- todo --></width>
+                           </dimensions>
+                        </layout>
+                     </layoutDesc>
                   </objectDesc>
+                  <handDesc>
+                     <handNote>
+                        <!--todo--></handNote>
+                  </handDesc>
+                  <decoDesc>
+                     <decoNote><!-- todo --></decoNote>
+                  </decoDesc>
+                  <bindingDesc>
+                     <binding>
+                        <p><!-- todo --></p>
+                     </binding>
+                  </bindingDesc>
                </physDesc>
                <history>
                   <origin>
-                     <origDate calendar="Gregorian" notAfter="1110" notBefore="1090">11th century, end - 12th century, beginning</origDate>
+                     <origDate calendar="Gregorian" notAfter="1110" notBefore="1090">11th century,
+                        end - 12th century, beginning</origDate>
                   </origin>
+                  <provenance><orgName role="fmo" key="org_132406363">Mainz, Carthusian abbey of St
+                        Michael</orgName></provenance>
+                  <provenance when="1638"><persName role="fmo" key="person_54940373">William Laud,
+                        1573–1645</persName>, 1638.</provenance>
+                  <acquisition when="1639">Given to the Bodleian as part of his third donation,
+                     dispatched on 28 June 1639.</acquisition>
                </history>
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source><ref target="https://medieval.bodleian.ox.ac.uk/about">Summary description</ref> abbreviated from the Quarto Catalogue (H. O. Coxe, <title>Laudian Manuscripts</title>, Quarto Catalogues II, repr. with corrections, 1969, from the original ed. of 1858–1885). <listBibl>
-                              <bibl facs="aby0170.gif" type="QUARTO">Quarto Catalogue, col. 244</bibl>
-                              <bibl facs="aby0171.gif" type="QUARTO">Quarto Catalogue, col. 245</bibl>
-                              <bibl facs="aap0056.gif" type="SC">Summary Catalogue, vol. 2, part 1, p. 35</bibl>
+                        <source><ref target="https://medieval.bodleian.ox.ac.uk/about">Summary
+                              description</ref> abbreviated from the Quarto Catalogue (H. O. Coxe,
+                              <title>Laudian Manuscripts</title>, Quarto Catalogues II, repr. with
+                           corrections, 1969, from the original ed. of 1858–1885). <listBibl>
+                              <bibl facs="aby0170.gif" type="QUARTO">Quarto Catalogue, col.
+                                 244</bibl>
+                              <bibl facs="aby0171.gif" type="QUARTO">Quarto Catalogue, col.
+                                 245</bibl>
+                              <bibl facs="aap0056.gif" type="SC">Summary Catalogue, vol. 2, part 1,
+                                 p. 35</bibl>
                            </listBibl>
                         </source>
                      </recordHist>
@@ -70,7 +117,9 @@
                   <listBibl type="WRAPPER">
                      <listBibl type="PRINT">
                         <head>Published descriptions:</head>
-                        <bibl>Daniela Mairhofer, <title>Medieval Manuscripts from the Mainz Charterhouse in the Bodleian Library, Oxford: A Descriptive Catalogue</title>, 2 vols. (Oxford, 2018), pp. 783–787</bibl>
+                        <bibl>Daniela Mairhofer, <title>Medieval Manuscripts from the Mainz
+                              Charterhouse in the Bodleian Library, Oxford: A Descriptive
+                              Catalogue</title>, 2 vols. (Oxford, 2018), pp. 783–787</bibl>
                      </listBibl>
                   </listBibl>
                </additional>
@@ -79,7 +128,10 @@
       </fileDesc>
       <revisionDesc>
          <change when="2017-07-01">First online publication.</change>
-         <change when="2017-05-25"><persName>James Cummings</persName> Up-converted the markup using <ref target="https://github.com/jamescummings/Bodleian-msDesc-ODD/blob/master/convertTolkien2Bodley.xsl">https://github.com/jamescummings/Bodleian-msDesc-ODD/blob/master/convertTolkien2Bodley.xsl</ref></change>
+         <change when="2017-05-25"><persName>James Cummings</persName> Up-converted the markup using
+               <ref
+               target="https://github.com/jamescummings/Bodleian-msDesc-ODD/blob/master/convertTolkien2Bodley.xsl"
+               >https://github.com/jamescummings/Bodleian-msDesc-ODD/blob/master/convertTolkien2Bodley.xsl</ref></change>
       </revisionDesc>
    </teiHeader>
    <text>
